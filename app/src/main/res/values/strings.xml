@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">InfoApp</string>
+    <string name="text_view_profile">View Profile</string>
+    <string name="text_greeting">Hi there, I\'m Android</string>
+</resources>
