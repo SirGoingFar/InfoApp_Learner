@@ -1,20 +1,15 @@
 package com.sirgoingfar.infoapp_learner;
 
 import android.content.Intent;
-import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.ImageView;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.graphics.drawable.RoundedBitmapDrawable;
-import androidx.core.graphics.drawable.RoundedBitmapDrawableFactory;
 
 public class ProfileActivity extends AppCompatActivity {
 
@@ -33,6 +28,11 @@ public class ProfileActivity extends AppCompatActivity {
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
+
+        //Todo: Read More...
+        // - https://developer.android.com/guide/topics/ui/menus
+        // - http://www.dre.vanderbilt.edu/~schmidt/android/android-4.0/out/target/common/docs/doc-comment-check/guide/topics/ui/menus.html
+
         MenuInflater inflater = getMenuInflater();
         inflater.inflate(R.menu.menu_profile, menu);
         return true;
@@ -60,6 +60,10 @@ public class ProfileActivity extends AppCompatActivity {
         //Using "tel:phone_num"
 
         //Step 3: Start the activity
+
+        //Todo: Read more...
+        // - https://android--code.blogspot.com/2017/08/android-open-dialer-with-phone-number.html
+        // - https://stackoverflow.com/questions/11699819/how-do-i-get-the-dialer-to-open-with-phone-number-displayed
     }
 
 
@@ -84,6 +88,9 @@ public class ProfileActivity extends AppCompatActivity {
             //There is no Mail Client app, DO NOTHING
             Toast.makeText(this, "No Mail Client is available", Toast.LENGTH_SHORT).show();
         }
+
+        //Todo: Read more...
+        // - https://medium.com/@cketti/android-sending-email-using-intents-3da63662c58f
     }
 
 
@@ -103,6 +110,10 @@ public class ProfileActivity extends AppCompatActivity {
         //Step 4: Check if the Map app is available to ACCEPT this intent
         //if Map App is available, Start the Map Activity
         //Else, DO NOTHING
+
+        //Todo: Read more...
+        // - https://developers.google.com/maps/documentation/urls/android-intents
+        // - https://www.codexpedia.com/android/android-open-map-apps-through-intent/
     }
 
 
@@ -119,6 +130,10 @@ public class ProfileActivity extends AppCompatActivity {
         //Step 3: Set the data of the intent
 
         //Step 4: Start the intent
+
+        //Todo: Read more...
+        // - https://www.tutorialkart.com/kotlin-android/android-open-url-in-browser-activity/
+        // - https://stackoverflow.com/questions/3004515/sending-an-intent-to-browser-to-open-specific-url?rq=1
     }
 
 
@@ -137,6 +152,10 @@ public class ProfileActivity extends AppCompatActivity {
         //Step 4: Add the text to share as an extra data (Intent.EXTRA_TEXT)
 
         //Step 5: Start shareIntent
+
+        //Todo: Read more...
+        // - https://developer.android.com/training/sharing/send
+        // - https://stackoverflow.com/questions/9948373/android-share-plain-text-using-intent-to-all-messaging-apps
     }
 
 
