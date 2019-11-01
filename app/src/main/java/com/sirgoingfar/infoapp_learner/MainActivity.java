@@ -1,14 +1,9 @@
 package com.sirgoingfar.infoapp_learner;
 
-import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.ImageView;
 
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.graphics.drawable.RoundedBitmapDrawable;
-import androidx.core.graphics.drawable.RoundedBitmapDrawableFactory;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -24,5 +19,8 @@ public class MainActivity extends AppCompatActivity {
 
         //Step 2: Start the activity using the 'created' intent
 
+        //Todo: Read more...
+        // - https://developer.android.com/training/basics/firstapp/starting-activity
+        // - https://stackoverflow.com/questions/4186021/how-to-start-new-activity-on-button-click
     }
 }
